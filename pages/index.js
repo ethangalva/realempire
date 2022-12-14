@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from './components/header'
+import Landing from './components/landing'
 
 export default function Home() {
 
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main>
         <Header />
+        <Landing />
       </main>
     </div>
   )
