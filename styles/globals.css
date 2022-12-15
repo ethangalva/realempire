@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 
-COLOR PALLETE
-
-green: #4C604C
-*/
-
 html,
 body {
   padding: 0;

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from './components/header'
 import Landing from './components/landing'
+import About from './components/about'
 
 export default function Home() {
 
@@ -12,9 +13,9 @@ export default function Home() {
         <link rel="icon" href="" />
       </Head>
 
-      <main>
-        <Header />
+      <main className='snap-y snap-mandatory h-screen overflow-y-scroll' >
         <Landing />
+        <About />
       </main>
     </div>
   )

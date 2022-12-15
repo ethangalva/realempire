@@ -1,12 +1,15 @@
+import Header from "./header"
+
 export default function Landing() {
     return (
-        <div className="h-screen flex flex-col justify-between px-8 pt-20 pb-6 gap-8" id="home">
+        <div className="h-screen flex flex-col justify-between px-8  pb-6 gap-8 snap-center" id="home">
+            <Header />
             {/* GRID OF IMAGES */}
             <div className="flex flex-wrap flex-row justify-center gap-2">
-                <div className="h-24 w-2/4 rounded-full bg-[url('../public/images/building-1.jpg')] bg-center bg-no-repeat bg-cover transition ease-in-out delay-250 hover:rotate-6 origin-top-right  duration-500" />
+                <div className="h-24 w-2/4 rounded-full bg-[url('../public/images/building-1.jpg')] bg-center bg-no-repeat bg-cover transition ease-in-out delay-250 hover:rotate-2 origin-top-right  duration-500" />
                 <div className="h-24 w-1/4 rounded-full bg-[url('../public/images/building-2.jpg')] bg-center bg-no-repeat bg-cover transition ease-in-out delay-250 hover:rotate-6 origin-bottom-right duration-500" />
-                <div className="h-24 w-1/4 rounded-full bg-[url('../public/images/building-3.jpg')] bg-center bg-no-repeat bg-cover transition ease-in-out delay-250 hover:rotate-6 origin--top-left duration-500" />
-                <div className="h-24 w-2/4 rounded-full bg-[url('../public/images/building-4.jpg')] bg-center bg-no-repeat bg-cover transition ease-in-out delay-250 hover:rotate-6 origin-top-left duration-500 " />
+                <div className="h-24 w-1/4 rounded-full bg-[url('../public/images/building-3.jpg')] bg-center bg-no-repeat bg-cover transition ease-in-out delay-250 hover:rotate-6 origin-top-left duration-500" />
+                <div className="h-24 w-2/4 rounded-full bg-[url('../public/images/building-4.jpg')] bg-center bg-no-repeat bg-cover transition ease-in-out delay-250 hover:rotate-2 origin-top-left duration-500 " />
             </div>
             {/* H1 / SMALL MESSAGE OF BRAND */}
             <div className="flex flex-col gap-4 justify-center">

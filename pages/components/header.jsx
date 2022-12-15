@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div className="h-14 w-screen flex px-6 absolute justify-between">
+        <div className="h-14 flex px-6 justify-between">
             {/* BRAND */}
             <div className="w-1/2 flex md:w-1/4 ">
                 <a className="flex items-center">
