@@ -2,7 +2,7 @@ import Header from "./header"
 
 export default function Landing() {
     return (
-        <div className="h-screen flex flex-col justify-between px-8  pb-6 gap-8 snap-center" id="home">
+        <div className="h-screen flex flex-col justify-between px-8  py-4 gap-8 snap-center" id="home">
             <Header />
             {/* GRID OF IMAGES */}
             <div className="flex flex-wrap flex-row justify-center gap-2">

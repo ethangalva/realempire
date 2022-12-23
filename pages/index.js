@@ -3,6 +3,7 @@ import Header from './components/header'
 import Landing from './components/landing'
 import About from './components/about'
 import Project from './components/project'
+import Team from './components/team'
 
 export default function Home() {
 
@@ -18,6 +19,7 @@ export default function Home() {
         <Landing />
         <About />
         <Project />
+        <Team />
       </main>
     </div>
   )

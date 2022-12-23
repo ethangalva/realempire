@@ -28,6 +28,7 @@ export default function About() {
                             <h1 className="text-white font-semibold text-xl">Product</h1>
                             <p className="text-sm font-medium text-slate-300">We make custom products and sell them. To those who need this product</p>
                         </div>
+                        {/* hi */}
                     </div>
                 </div>
             </div>
