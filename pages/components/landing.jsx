@@ -14,7 +14,7 @@ export default function Landing() {
             {/* H1 / SMALL MESSAGE OF BRAND */}
             <div className="flex flex-col gap-4 justify-center">
                 <p className="text-customGreen font-bold text-center">The Architecture</p>
-                <h1 className="text-2xl font-semibold w-full text-center md:text-8xl lg:w-3/5 xl:w-2/5">Build with Technology</h1>
+                <h1 className="text-2xl font-semibold w-full text-center md:text-6xl lg:w-3/5 xl:w-2/5">Build with Technology</h1>
                 <p className="text-center ">We build with technology to produce the best buildings and designs so we can make everyone&lsquo;s dream building a reality</p>
             </div>
             {/* STATS */}
