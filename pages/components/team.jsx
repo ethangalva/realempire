@@ -1,5 +1,4 @@
 export default function About() {
-
     return (
         <div className="h-screen flex flex-col md:px-8 md:py-6 snap-center gap-4 bg-customBlack" id="team">
             <div className="flex flex-col h-full gap-4 p-4 bg-customGreen md:justify-center md:rounded-3xl overflow-hidden md:h-full ">

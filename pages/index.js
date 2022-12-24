@@ -4,6 +4,7 @@ import Landing from './components/landing'
 import About from './components/about'
 import Project from './components/project'
 import Team from './components/team'
+import Footer from './components/footer'
 
 export default function Home() {
 
@@ -20,6 +21,7 @@ export default function Home() {
         <About />
         <Project />
         <Team />
+        <Footer />
       </main>
     </div>
   )
