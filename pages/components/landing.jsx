@@ -13,9 +13,9 @@ export default function Landing() {
             </div>
             {/* H1 / SMALL MESSAGE OF BRAND */}
             <div className="flex flex-col gap-4 justify-center order-3 xl:order-2 xl:w-1/2">
-                <p className="text-customGreen font-bold text-center">The Architecture</p>
+                <p className="text-customGreen font-bold text-center md:text-xl">The Architecture</p>
                 <h1 className="text-2xl font-semibold w-full text-center md:text-6xl lg:w-full">Build with Technology</h1>
-                <p className="text-center lg:text-xl">We build with technology to produce the best buildings and designs so we can make everyone&lsquo;s dream building a reality</p>
+                <p className="text-center md:text-lg lg:text-xl">We build with technology to produce the best buildings and designs so we can make everyone&lsquo;s dream building a reality</p>
             </div>
             {/* STATS */}
             <div className="bg-customGreen h-min py-10 rounded-3xl flex flex-wrap p-4 order-4 w-full">
