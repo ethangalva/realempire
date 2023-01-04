@@ -17,7 +17,7 @@ export default function About() {
                             <h1 className="text-white font-semibold text-xl lg:text-4xl">Design</h1>
                             <p className="text-sm font-medium text-slate-300 lg:text-lg">Creative design with digital products that help you promote your business</p>
                         </div>
-                        <div className="w-3/4 bg-slate-400 h-px md:w-1/2 lg:w-full"></div>
+                        <div className="w-3/4 bg-slate-400 h-px md:w-1/2 lg:w-full lg:block hidden"></div>
                     </div>
                     <div className="flex flex-col w-1/2 px-2 gap-4 lg:justify-center lg:w-full">
                         <div>
