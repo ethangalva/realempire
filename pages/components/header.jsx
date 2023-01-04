@@ -8,9 +8,9 @@ export default function Header() {
                 </a>
             </div>
             {/* NAV MENU */}
-            <div className="hidden w-2/4 justify-start items-center gap-4 text-md font-semibold md:flex">
+            <div className="hidden w-2/4 justify-center items-center gap-4 text-md font-semibold md:flex">
                 <a href="#home" className="">HOME</a>
-                <a href="about" className="">ABOUT</a>
+                <a href="#about" className="">ABOUT</a>
                 <a href="#project" className="">PROJECT</a>
                 <a href="#contact" className="">CONTACT</a>
             </div>

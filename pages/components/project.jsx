@@ -1,12 +1,12 @@
 export default function Project() {
     return (
-        <div className="h-screen flex flex-col snap-center" id="about">
+        <div className="h-screen flex flex-col snap-center" id="project">
             <div className="flex h-full flex-col justify-center bg-customBlack py-6 px-8 gap-8 md:py-8 ">
                 {/* container for text */}
-                <div className="flex flex-row w-full">
-                    <h1 className="text-white text-2xl font-bold text-center md:text-left md:w-5/12">We bring better changes to every building</h1>
+                <div className="flex flex-row w-full md:px-8">
+                    <h1 className="text-white text-2xl font-bold text-center md:text-left md:w-5/12 lg:text-3xl">We bring better changes to every building</h1>
                     {/* <div className="bg-[url('../public/images/building-4.jpg')] bg-center bg-no-repeat bg-cover w-full h-full rounded-3xl transition ease-in-out delay-250 hover:rotate-1 origin-bottom-left duration-500" /> */}
-                    <p className="hidden w-7/12 text-sm md:flex text-slate-300 items-center">Anim voluptate est fugiat cillum Lorem sunt eiusmod Lorem magna ex officia reprehenderit proident fugiat do do sit sint sint aliqua.</p>
+                    <p className="hidden w-7/12 text-sm md:flex text-slate-300 items-center lg:text-xl">Anim voluptate est fugiat cillum Lorem sunt eiusmod Lorem magna ex officia reprehenderit proident fugiat do do sit sint sint aliqua.</p>
                     {/* container for projects */}
                 </div>
                 {/* container for projects */}

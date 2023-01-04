@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <div className="h-screen flex flex-col p-4 md:px-8 md:py-6 snap-center justify-between bg-customBlack" id="footer">
+        <div className="h-screen flex flex-col p-4 md:px-8 md:py-6 snap-center justify-between bg-customBlack" id="contact">
             {/* CREDITS/GO BACK UP  */}
             <div className="w-full flex flex-row">
                 <div className="text-white w-1/2 font-bold md:w-1/3">REALEMPIRE</div>
