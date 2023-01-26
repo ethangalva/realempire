@@ -18,7 +18,7 @@ export default function Landing() {
                 <p className="text-center md:text-lg lg:text-xl">We build with technology to produce the best buildings and designs so we can make everyone&lsquo;s dream building a reality</p>
             </div>
             {/* STATS */}
-            <div className="bg-customGreen h-min py-10 rounded-3xl flex flex-wrap p-4 order-4 w-full">
+            <div className="bg-customGreen h-min py-4 rounded-3xl flex flex-wrap p-4 order-4 w-full">
                 <div className="w-1/2 flex flex-col justify-center items-center lg:w-1/4">
                     <div className="text-white text-3xl font-semibold lg:text-5xl lg:font-bold ">14+</div>
                     <div className="text-slate-300 flex flex-nowrap lg:text-xl">Y/o experience</div>
