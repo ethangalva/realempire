@@ -28,7 +28,7 @@ export default function Landing() {
                     <div className="text-slate-300 flex flex-nowrap lg:text-xl">Projects Done</div>
                 </div>
                 <div className="w-1/2 flex flex-col justify-center items-center  lg:w-1/4">
-                    <div className="text-white text-3xl font-semibold lg:text-5xl lg:font-bold ">130</div>
+                    <div className="text-white text-3xl font-semibold lg:text-5xl lg:font-bold ">32</div>
                     <div className="text-slate-300 flex flex-nowrap lg:text-xl">Personel</div>
                 </div>
                 <div className="w-1/2 flex flex-col justify-center items-center  lg:w-1/4">
